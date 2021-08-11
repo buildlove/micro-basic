@@ -17,6 +17,14 @@ module.exports = {
     },
     historyApiFallback: true,
     overlay: { warnings: false, errors: true },
+    proxy: {
+      '/micro-app': {
+        target: 'http://localhost:2235',
+        // pathRewrite: {'^/micro-app' : ''},
+        // changeOrigin: true,     // target是域名的话，需要这个参数，
+        secure: false,          // 设置支持https协议的代理
+      }
+    }
   },
   output: {
     publicPath: '/',

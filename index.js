@@ -27,6 +27,13 @@ registerMicroApps(
       container: '#subapp-viewport',
       loader,
       activeRule: '/react17',
+    },
+    {
+      name: 'localReact17',
+      entry: '//localhost:2235/localReact17',
+      container: '#subapp-viewport',
+      loader,
+      activeRule: '/localReact17',
     }
   ],
   {
