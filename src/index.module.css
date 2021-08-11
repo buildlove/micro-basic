@@ -1,0 +1,11 @@
+.container {
+  height: 100vh;
+  display: flex;
+  .left {
+    flex: 0 0 200px;
+    height: 100%;
+  }
+  .right {
+    flex: 1;
+  }
+}
