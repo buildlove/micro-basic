@@ -22,9 +22,8 @@ function MenuBar(props: Props) {
       mode="inline"
     >
       <Menu.Item key="/about">Base About</Menu.Item>
-      <Menu.Item key="/reactApp">Child React App</Menu.Item>
       <Menu.Item key="/react17">Child React17</Menu.Item>
-      <Menu.Item key="/localReact17">Child localReact17</Menu.Item>
+      <Menu.Item key="/demoMap">demoMap</Menu.Item>
       <Menu.Item key="/vueApp">Child Vue App</Menu.Item>
     </Menu>
   );

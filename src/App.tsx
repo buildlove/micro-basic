@@ -16,9 +16,8 @@ function App() {
               <h1>about</h1>
             </Route>
           </Switch>
-
-          <div id="reactApp"></div>
-          <div id="localReact17"></div>
+          <div id="react17"></div>
+          <div id="demoMap"></div>
           <div id="vueApp"></div>
         </div>
       </div>
