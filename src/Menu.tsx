@@ -21,7 +21,7 @@ function MenuBar(props: Props) {
       style={{ height: "100%" }}
       mode="inline"
     >
-      <Menu.Item key="/about">Base About</Menu.Item>
+      {/* <Menu.Item key="/about">Base About</Menu.Item> */}
       <Menu.Item key="/react17">Child React17</Menu.Item>
       <Menu.Item key="/demoMap">demoMap</Menu.Item>
       <Menu.Item key="/vueApp">Child Vue App</Menu.Item>

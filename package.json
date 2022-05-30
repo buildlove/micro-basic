@@ -23,7 +23,11 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.3",
     "typescript": "^4.1.2",
-    "web-vitals": "^1.0.1"
+    "web-vitals": "^1.0.1",
+    "@cloud-app-dev/basic-components": "1.0.54",
+    "@cloud-app-dev/config-overrides": "2.0.5",
+    "@cloud-app-dev/utils": "2.0.1",
+    "@cloud-app-dev/vidc": "1.0.42"
   },
   "scripts": {
     "start": "react-app-rewired start",
